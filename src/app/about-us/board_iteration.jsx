@@ -10,6 +10,7 @@ export default function BoardIteration({name, image, execs, board, interns}) {
           <a
             className="flex flex-row gap-16 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           >
+            
             <div>
               <h2 className="mb-3 text-2xl font-semibold">
                 {name}
@@ -24,28 +25,28 @@ export default function BoardIteration({name, image, execs, board, interns}) {
             </div>
 
             <div>
-            <h3 className="mb-3 text-xl font-semibold">Executives</h3>
-            <ul className="list-none">
-            {execs.map((item) => (
-              <li>{item}</li>
-           ))}
-            </ul>
+              <h3 className="mb-3 text-xl font-semibold">Executives</h3>
+              <ul className="list-none">
+              {execs.map((item) => (
+                <li>{item}</li>
+              ))}
+              </ul>
             <br/>
 
             <h3 className="mb-3 text-xl font-semibold">Board</h3>
-            <ul className="list-none">
-            {board.map((item) => (
-              <li>{item}</li>
-           ))}
-            </ul>
+              <ul className="list-none">
+              {board.map((item) => (
+                <li>{item}</li>
+              ))}
+              </ul>
             <br/>
             
             <h3 className="mb-3 text-xl font-semibold">Interns</h3>
-            <ul className="list-none">
-            {interns.map((item) => (
-              <li>{item}</li>
-           ))}
-            </ul>
+              <ul className="list-none">
+              {interns.map((item) => (
+                <li>{item}</li>
+              ))}
+              </ul>
             </div>
 
           </a>  

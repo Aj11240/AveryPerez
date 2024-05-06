@@ -38,7 +38,7 @@ export default function Page() {
         </div>
         <br/>
         <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardMember name="Grace" position="Vice Executive" message="Rip Gfriend." image="/kosmos./Hoang.jpg"/>
+            <BoardMember name="Grace" position="Vice Executive" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
             <BoardMember name="Adriel" position="Design" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
             <BoardMember name="Anna" position="Design Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
             <BoardMember name="Fira" position="Closer Director" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
