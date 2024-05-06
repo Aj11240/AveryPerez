@@ -13,7 +13,7 @@ export default function CoverThumbnail({name, image}) {
                 src={"http://img.youtube.com/vi/"+ image +"/maxresdefault.jpg"}
                 />
             </CardBody>
-            <CardFooter className="text-small justify-center">
+            <CardFooter className="text-small justify-center text-pretty">
                 <b>{name}</b>
             </CardFooter>
         </Card>
