@@ -7,7 +7,7 @@ import BoardIteration from "./board_iteration"
 export default function Page() {
     return (
     <main className="flex min-h-screen flex-col items-center p-8">
-        
+
         <TopNavbar/>
         <div className="my-8 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left p-10">
             <h1 className="text-2xl text-center font-semibold">Our Mission Statement</h1>
@@ -67,7 +67,7 @@ export default function Page() {
             <BoardIteration name="Fall 2022" image="/averyperez.github.io/fa22board.jpg"/>
         </div>
         <div className="mb-32 text-center grid lg:grid-cols-2 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardIteration name="Spring 2022" image="/averyperez.github.io/sp22board.jpg"/>
+            <BoardIteration name="Spring 2022" image="/averyperez.github.io/sp22board.JPG"/>
             <BoardIteration name="Fall 2021" image="/averyperez.github.io/fa21board.jpg"/>
         </div>
         <div className="mb-32 text-center grid lg:grid-cols-2 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
@@ -75,7 +75,7 @@ export default function Page() {
             <BoardIteration name="Fall 2020" image="/averyperez.github.io/fa20board.jpg"/>
         </div>
         <div className="mb-32 text-center grid lg:grid-cols-2 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardIteration name="Fall 2019 & Spring 2020" image="/averyperez.github.io/ogboard.jpg"/>
+            <BoardIteration name="Fall 2019 & Spring 2020" image="/averyperez.github.io/OGboard.jpg"/>
         </div>
     </main>
     );
