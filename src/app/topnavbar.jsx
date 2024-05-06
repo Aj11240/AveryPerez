@@ -9,11 +9,26 @@ export default function TopNavbar() {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     const menuItems = [
-        "About Us",
-        "Covers",
-        "Events",
-        "Photos",
-        "Follow Us",
+        {
+            name: "About Us",
+            link: "about-us"
+        },
+        {
+            name: "Covers",
+            link: "covers"
+        },
+        {
+            name: "Events",
+            link: "events"
+        },
+        {
+            name: "Photos",
+            link: "photos"
+        },
+        {
+            name: "Follow Us",
+            link: "follow-us"
+        },
     ];
     
     return (
@@ -78,16 +93,16 @@ export default function TopNavbar() {
                 </NavbarContent>
                 <NavbarMenu>
                     {menuItems.map((item, index) => (
-                    <NavbarMenuItem key={`${item}-${index}`}>
+                    <NavbarMenuItem key={`${item.name}-${index}`}>
                         <Link
                         color={
                             index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
                         }
                         className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-black"
-                        href="#"
+                        href={item.link}
                         size="lg"
                         >
-                        {item}
+                        {item.name}
                         </Link>
                     </NavbarMenuItem>
                     ))}

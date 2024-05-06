@@ -8,11 +8,18 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col items-center p-8">
       <TopNavbar/>
-      <h1 className="text-2xl text-center font-semibold p-8">Latest Cover</h1>
+      
       <div className="my-8 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left p-10">
-        
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RGT685PoZJU?si=r2k0tWpdmBav_TQx" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen/>
+            
+            <h1 className="text-2xl text-center font-semibold">Latest Cover</h1>
+            <br/>
+            <div className="flex flex-col items-center">
+            <iframe  width="560" height="315" src="https://www.youtube.com/embed/RGT685PoZJU?si=r2k0tWpdmBav_TQx" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
+            text-align="center" 
+            />
+            <br/>
+            </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2024 Covers</h1>
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
@@ -64,6 +71,8 @@ export default function Page() {
                 <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw"/>
                 <CoverThumbnail name="ATEEZ 에이티즈 - ‘Guerrilla’" image="BAC4ailY8B4"/>
                 <CoverThumbnail name="Wanna One 워너원 - 'Energetic'" image="EP1qrMg_mJo"/>
+                <CoverThumbnail name="NMIXX (엔믹스) - ‘DICE’" image="tGtdaRUW3zc"/>
+                <CoverThumbnail name="fromis_9 프로미스나인 - ‘DM’" image="IvFxCahQ6Uw"/>
 
             </div>
 
