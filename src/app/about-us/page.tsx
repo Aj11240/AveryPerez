@@ -7,6 +7,7 @@ import BoardIteration from "./board_iteration"
 export default function Page() {
     return (
     <main className="flex min-h-screen flex-col items-center p-8">
+        
         <TopNavbar/>
         <div className="my-8 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left p-10">
             <h1 className="text-2xl text-center font-semibold">Our Mission Statement</h1>
