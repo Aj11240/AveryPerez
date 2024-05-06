@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link"
-import {Navbar, NavbarBrand, NavbarContent, NavbarItem} from "@nextui-org/react";
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuToggle} from "@nextui-org/react";
 
 
 export default function TopNavbar() {
@@ -38,12 +38,12 @@ export default function TopNavbar() {
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="#">
+                    <Link color="foreground" href="photos">
                         Photos
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="#">
+                    <Link color="foreground" href="follow-us">
                         Follow Us
                     </Link>
                     </NavbarItem>
