@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
-import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
-import {Card, CardBody, CardFooter, Image} from "@nextui-org/react";
+import {Modal, ModalContent, ModalHeader, ModalBody, useDisclosure, Card, CardBody, CardFooter, Image} from "@nextui-org/react";
 import Member from "../member";
 
 export default function CoverThumbnail({name, image}) {
@@ -9,7 +8,7 @@ export default function CoverThumbnail({name, image}) {
     return (
         <>
         <div>
-            <Card shadow="sm" isPressable onPress={(onOpen)}>
+            <Card className="z-0" shadow="sm" isPressable onPress={(onOpen)}>
                 <CardBody className="overflow-visible p-0">
                     <Image
                     shadow="sm"

@@ -26,42 +26,6 @@ export default function Page() {
             </p>
             <br/>
             <br/>
-            <h1 className="text-2xl text-center font-semibold">Meet our Board!</h1>
-        </div>
-        <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardMember name="Hoang" position="Executive" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Lianna" position="Executive" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Scott" position="Executive Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Abbie" position="Vice Executive" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-        </div>
-        <br/>
-        <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardMember name="Grace" position="Vice Executive" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Adriel" position="Design" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Anna" position="Design Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Fira" position="Closer Director" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-        </div>
-        <br/>
-        <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardMember name="Vince" position="Closer Director" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Monica" position="Tech Team" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Chien-Hao" position="Tech Team Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Seoyun" position="Tech Team Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-        </div>
-        <br/>
-        <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardMember name="Adriel" position="Design" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Shiho" position="Social Media" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Michelle" position="Social Media Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Angelina" position="Social" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-        </div>
-        <br/>
-        <div className="mb-32 text-center grid lg:grid-cols-4 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
-            <BoardMember name="Brendon" position="Social Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Justine" position="Finance" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-            <BoardMember name="Fiona" position="Finance Intern" message="Rip Gfriend." image="/kosmos/Hoang.jpg"/>
-        </div>
-        <div className="my-8 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left p-10">
             <h1 className="text-2xl text-center font-semibold">Previous Board Iterations</h1>
             <p className="text-tiny text-center text-white/60">Click each image for more info</p>
         </div>

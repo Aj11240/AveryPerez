@@ -8,7 +8,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
     return (
         <>
             <div>
-                <Card fullwidth shadow="sm" isFooterBlurred isPressable onPress={onOpen}>
+                <Card className="z-0" fullwidth shadow="sm" isFooterBlurred isPressable onPress={onOpen}>
                     <Image
                     removeWrapper
                     alt="Card background"
@@ -33,7 +33,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
                         <div className="flex flex-col gap-16 text-pretty text-center">
                             <div>
                                 <Image
-                                className="z-0 w-1/2 h-1/2 object-cover"
+                                className=" z-0 w-1/2 h-1/2 object-cover"
                                 src={image}
                                 alt="Board Iteration Image"
                                 priority

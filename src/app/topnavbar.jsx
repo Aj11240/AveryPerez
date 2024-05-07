@@ -32,7 +32,7 @@ export default function TopNavbar() {
     ];
     
     return (
-        <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-black">
+        <div className="sticky top-0 z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex bg-black">
             <Navbar position="sticky" onMenuOpenChange={setIsMenuOpen} isBordered>
                 <NavbarContent>
                     <NavbarMenuToggle
