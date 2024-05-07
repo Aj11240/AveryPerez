@@ -24,13 +24,13 @@ export default function BoardModal({name, image, execs, board, interns}) {
                     </CardFooter>
                 </Card>
             </div>
-            <Modal size="5xl" isOpen={isOpen} onOpenChange={onOpenChange}>
+            <Modal size="4xl" isOpen={isOpen} onOpenChange={onOpenChange}>
                 <ModalContent>
                 {(onClose) => (
                     <>
                     <ModalHeader className="flex flex-col gap-1 mb-3 text-2xl font-semibold">{name}</ModalHeader>
                     <ModalBody>
-                        <div className="flex flex-col gap-16 text-pretty">
+                        <div className="flex flex-col gap-16 text-pretty text-center">
                             <div>
                                 <Image
                                 className="z-0 w-1/2 h-1/2 object-cover"
