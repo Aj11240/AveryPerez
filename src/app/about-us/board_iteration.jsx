@@ -67,14 +67,8 @@ export default function BoardModal({name, image, execs, board, interns}) {
                                   </ul>
                                 </div>
                             </div>
-                        </div>
-                        
+                        </div>                       
                     </ModalBody>
-                    <ModalFooter>
-                        <Button color="danger" variant="light" onPress={onClose}>
-                        Close
-                        </Button>
-                    </ModalFooter>
                     </>
                 )}
                 </ModalContent>

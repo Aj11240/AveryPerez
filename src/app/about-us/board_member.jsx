@@ -14,15 +14,12 @@ export default function BoardMember({name, position, message, image}) {
               {position}
             </h2>
             <Image
-            src={image}
-            alt="Board Member Image"
-            width={250}
-            height={100}
-            priority
+              src={image}
+              alt="Board Member Image"
+              width={250}
+              height={100}
+              priority
               />
-            <p className="m-0 max-w-[30ch] text-sm opacity-50">
-              {message}
-            </p>
           </a>
     );
 }
