@@ -12,7 +12,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
                     <Image
                     removeWrapper
                     alt="Card background"
-                    className="w-[525px] h-[300px] object-cover"
+                    className="w-[510px] h-[300px] object-cover"
                     src={image}
                     />
                     <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
