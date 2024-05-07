@@ -22,20 +22,20 @@ export default function Page() {
                 />
                 <div className="flex flex-col">
                     Dancers:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
                 </div>
                 <div className="flex flex-col">
                     Filmed By:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
                     <br/>
                     Edited By:
-                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg" page="/members/hoang"/>
                 </div>
                 <br/>
             </div>
@@ -52,10 +52,10 @@ export default function Page() {
             <h1 className="text-2xl text-center font-semibold p-8">Fall 2023 Covers</h1>
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
 
-                <CoverThumbnail name="EVERGLOW (에버글로우) - ‘SLAY’" image="33HeMgKKIh0"/>
-                <CoverThumbnail name="XG - ‘NEW DANCE’" image="YZ9VRrTPLvs"/>
-                <CoverThumbnail name="SEVENTEEN 세븐틴 - ‘Super’" image="ZAkTSEvtTG8"/>
-                <CoverThumbnail name="ITZY 있지 - ‘CAKE’" image="eEdK4yVdhKs"/>
+                <CoverThumbnail name="EVERGLOW (에버글로우) - ‘SLAY’" image="33HeMgKKIh0" />
+                <CoverThumbnail name="XG - ‘NEW DANCE’" image="YZ9VRrTPLvs" />
+                <CoverThumbnail name="SEVENTEEN 세븐틴 - ‘Super’" image="ZAkTSEvtTG8" />
+                <CoverThumbnail name="ITZY 있지 - ‘CAKE’" image="eEdK4yVdhKs" />
 
             </div>
 
@@ -63,23 +63,23 @@ export default function Page() {
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
 
                 <CoverThumbnail name="IVE (아이브) - ‘I AM’" image="BYXcRED7szU"/>
-                <CoverThumbnail name="TXT 투모로우바이투게더 - ‘Sugar Rush Ride’" image="co-_4ScFqb4"/>
-                <CoverThumbnail name="ENHYPEN 엔하이픈 - ‘Sacrifice (Eat Me Up)’" image="8ChQaQjlSPU"/>
-                <CoverThumbnail name="ATEEZ 에이티즈 - ‘Bouncy (K-Hot Chilli Peppers)’" image="lIFoybx-zOc"/>
-                <CoverThumbnail name="NewJeans 뉴진스 - 'Cool With You'" image="aq8emNqPvIY"/>
+                <CoverThumbnail name="TXT 투모로우바이투게더 - ‘Sugar Rush Ride’" image="co-_4ScFqb4" />
+                <CoverThumbnail name="ENHYPEN 엔하이픈 - ‘Sacrifice (Eat Me Up)’" image="8ChQaQjlSPU" />
+                <CoverThumbnail name="ATEEZ 에이티즈 - ‘Bouncy (K-Hot Chilli Peppers)’" image="lIFoybx-zOc" />
+                <CoverThumbnail name="NewJeans 뉴진스 - 'Cool With You'" image="aq8emNqPvIY" />
 
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2023 Covers</h1>
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
 
-                <CoverThumbnail name="X1 엑스원 - ‘FLASH’" image="pIbLVT8Lwc0"/>
-                <CoverThumbnail name="TWICE 트와이스 - ‘CRY FOR ME’" image="s0iXyDf9G0c"/>
-                <CoverThumbnail name="ATEEZ 에이티즈 - ‘Halazia’" image="ARGCmJC59rE"/>
-                <CoverThumbnail name="XG - ‘LEFT RIGHT’" image="MasG42QE-gE"/>
-                <CoverThumbnail name="THE BOYZ 더보이즈 - ‘ROAR’" image="I-uS_KCqQjI"/>
-                <CoverThumbnail name="TWICE 트와이스 - ‘SET ME FREE’" image="NGc_EV9RM5I"/>
-                <CoverThumbnail name="EXO 엑소 - ‘Tempo’" image="ucBTH8M0vOA"/>
+                <CoverThumbnail name="X1 엑스원 - ‘FLASH’" image="pIbLVT8Lwc0" />
+                <CoverThumbnail name="TWICE 트와이스 - ‘CRY FOR ME’" image="s0iXyDf9G0c" />
+                <CoverThumbnail name="ATEEZ 에이티즈 - ‘Halazia’" image="ARGCmJC59rE" />
+                <CoverThumbnail name="XG - ‘LEFT RIGHT’" image="MasG42QE-gE" />
+                <CoverThumbnail name="THE BOYZ 더보이즈 - ‘ROAR’" image="I-uS_KCqQjI" />
+                <CoverThumbnail name="TWICE 트와이스 - ‘SET ME FREE’" image="NGc_EV9RM5I" />
+                <CoverThumbnail name="EXO 엑소 - ‘Tempo’" image="ucBTH8M0vOA" />
                 <CoverThumbnail name="EVERGLOW 에버글로우 - ‘LA DI DA’" image="_5MKLIwgAa4"/>
 
             </div>
@@ -87,11 +87,11 @@ export default function Page() {
             <h1 className="text-2xl text-center font-semibold p-8">Fall 2022 Covers</h1>
             <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
 
-                <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw"/>
-                <CoverThumbnail name="ATEEZ 에이티즈 - ‘Guerrilla’" image="BAC4ailY8B4"/>
-                <CoverThumbnail name="Wanna One 워너원 - 'Energetic'" image="EP1qrMg_mJo"/>
+                <CoverThumbnail name="TWICE 트와이스 - ‘Talk That Talk’" image="Us-PHOABXuw" />
+                <CoverThumbnail name="ATEEZ 에이티즈 - ‘Guerrilla’" image="BAC4ailY8B4" />
+                <CoverThumbnail name="Wanna One 워너원 - 'Energetic'" image="EP1qrMg_mJo" />
                 <CoverThumbnail name="NMIXX (엔믹스) - ‘DICE’" image="tGtdaRUW3zc"/>
-                <CoverThumbnail name="fromis_9 프로미스나인 - ‘DM’" image="IvFxCahQ6Uw"/>
+                <CoverThumbnail name="fromis_9 프로미스나인 - ‘DM’" image="IvFxCahQ6Uw" />
 
             </div>
 

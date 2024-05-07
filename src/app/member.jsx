@@ -1,8 +1,15 @@
-import {User, Link} from "@nextui-org/react"
+"use client";
+import {Card, CardBody, CardFooter, Image, useDisclosure, User, Link} from "@nextui-org/react";
 
-export default function Member({name, handle, link, pic}) {
+
+export default function Member({name, handle, link, pic, page}) {
+    const {isOpen, onOpen, onOpenChange} = useDisclosure();
     return (
-        <a>
+        <Card 
+            href={page}
+            as={Link}
+            isPressable
+        >
         <User   
             name={name}
             description={(
@@ -13,7 +20,8 @@ export default function Member({name, handle, link, pic}) {
             avatarProps={{
                 src: pic
             }}
-        />
-        </a>
+        >
+        </User>
+        </Card>
     );
 }

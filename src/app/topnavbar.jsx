@@ -11,23 +11,23 @@ export default function TopNavbar() {
     const menuItems = [
         {
             name: "About Us",
-            link: "about-us"
+            link: "/about-us"
         },
         {
             name: "Covers",
-            link: "covers"
+            link: "/covers"
         },
         {
-            name: "Events",
-            link: "events"
+            name: "Members",
+            link: "/members"
         },
         {
             name: "Photos",
-            link: "photos"
+            link: "/photos"
         },
         {
             name: "Follow Us",
-            link: "follow-us"
+            link: "/follow-us"
         },
     ];
     
@@ -54,27 +54,27 @@ export default function TopNavbar() {
 
                 <NavbarContent className="hidden sm:flex gap-4" justify="center">
                     <NavbarItem>
-                    <Link href="about-us">
+                    <Link href="/about-us">
                         About Us
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="covers">
+                    <Link color="foreground" href="/covers">
                         Covers
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="events">
-                        Events
+                    <Link color="foreground" href="/members">
+                        Members
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="photos">
+                    <Link color="foreground" href="/photos">
                         Photos
                     </Link>
                     </NavbarItem>
                     <NavbarItem>
-                    <Link color="foreground" href="follow-us">
+                    <Link color="foreground" href="/follow-us">
                         Follow Us
                     </Link>
                     </NavbarItem>
