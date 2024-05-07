@@ -15,7 +15,7 @@ export default function Page() {
             
             <h1 className="text-2xl text-center font-semibold">Latest Cover</h1>
             <br/>
-            <div className="flex flex-row items-center justify-between">
+            <div className="mb-32 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left flex flex-row items-center justify-between">
                 <iframe  width="560" height="315" src="https://www.youtube.com/embed/RGT685PoZJU?si=r2k0tWpdmBav_TQx" title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
                 text-align="center" 

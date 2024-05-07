@@ -8,7 +8,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
     return (
         <>
             <div>
-                <Card fullwidth shadow="sm" isPressable onPress={onOpen}>
+                <Card fullwidth shadow="sm" isFooterBlurred isPressable onPress={onOpen}>
                     <Image
                     removeWrapper
                     alt="Card background"

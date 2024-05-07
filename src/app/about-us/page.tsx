@@ -63,6 +63,7 @@ export default function Page() {
         </div>
         <div className="my-8 text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left p-10">
             <h1 className="text-2xl text-center font-semibold">Previous Board Iterations</h1>
+            <p className="text-tiny text-center text-white/60">Click each image for more info</p>
         </div>
         <div className="mb-32 text-center grid lg:grid-cols-2 lg:mb-0 lg:w-full lg:max-w-5xl lg:text-left">
             <BoardIteration 
@@ -74,7 +75,7 @@ export default function Page() {
             />
             <BoardIteration 
             name="Fall 2023" 
-            image="/kosmos/fa22board.jpg" 
+            image="/kosmos/fa23board.jpg" 
             execs={["Executive: Annie Li", "Executive: Hoang Ton", "Vice Executive: Abbie Tsai", "Vice Executive: Lianna Soriano"]}
             board={["Social: Nathan Au-Yeung", "Finance: Justine Tan", "Social Media: Shiho Manabe", "Tech Team Lead: Monica Wang", "Design: Adriel Vijuan"]}
             interns={["Executive Intern: Grace Luong", "Executive Intern: Emily Wang", "Design Intern: Keira Ho", "Social Intern: Brendon Lin", "Finance Intern: Mahsa Mir"]}

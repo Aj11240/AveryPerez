@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <br/>
         <Image 
-        src="/Hoang.jpg"
+        src="/kosmos/Hoang.jpg"
         isZoomed
         width={240}
         height={240}
