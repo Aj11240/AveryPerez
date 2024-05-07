@@ -12,7 +12,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
                     <Image
                     removeWrapper
                     alt="Card background"
-                    className="h-[300px] object-cover"
+                    className="w-[525px] h-[300px] object-cover"
                     src={image}
                     />
                     <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
@@ -30,7 +30,7 @@ export default function BoardModal({name, image, execs, board, interns}) {
                     <>
                     <ModalHeader className="flex flex-col gap-1 mb-3 text-2xl font-semibold">{name}</ModalHeader>
                     <ModalBody>
-                        <div className="flex flex-col gap-16">
+                        <div className="flex flex-col gap-16 text-pretty">
                             <div>
                                 <Image
                                 className="z-0 w-1/2 h-1/2 object-cover"
