@@ -19,9 +19,9 @@ export default function Page() {
             <h1 className="text-2xl text-center font-semibold">History of KOSMOS @ Cal</h1>
             <br/>
             <p className="text-center">
-            KOSMOS was founded in Fall 2019 by UC Berkeley students Vivian Le, Sean Kelly, Janice Wenyao Ji, and Yeseul Cho. They created a cover Twice's "Fancy"
+            KOSMOS was founded in the fall of 2019 by UC Berkeley students Vivian Le, Sean Kelly, Janice Wenyao Ji, and Yeseul Cho. They created a cover Twice's "Fancy"
             with a group of friends, and were able to produce more kpop covers from popular artists like BTS, Itzy, TXT, and Blackpink as they recruited more friends 
-            and classmates. Following the remote semesters of Fall '20 and Spring '21, KOSMOS has grown massively into a full-fledged
+            and classmates. After returning to in-person activities after the COVID-19 pandemic, KOSMOS has grown massively into a full-fledged
             dance team, with ~100 members producing 10+ dance covers per semester, and performs at events like Cal Day, EAU Night Market, AFX Showcase, and more!
             </p>
             <br/>

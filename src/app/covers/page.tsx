@@ -2,6 +2,8 @@
 import TopNavbar from "../topnavbar";
 import React from "react";
 import CoverThumbnail from "./cover_thumbail";
+import {User, Link} from "@nextui-org/react"
+import Member from "../member";
 
 export default function Page() {
 
@@ -13,12 +15,29 @@ export default function Page() {
             
             <h1 className="text-2xl text-center font-semibold">Latest Cover</h1>
             <br/>
-            <div className="flex flex-col items-center">
-            <iframe  width="560" height="315" src="https://www.youtube.com/embed/RGT685PoZJU?si=r2k0tWpdmBav_TQx" title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
-            text-align="center" 
-            />
-            <br/>
+            <div className="flex flex-row items-center justify-between">
+                <iframe  width="560" height="315" src="https://www.youtube.com/embed/RGT685PoZJU?si=r2k0tWpdmBav_TQx" title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen
+                text-align="center" 
+                />
+                <div className="flex flex-col">
+                    Dancers:
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                </div>
+                <div className="flex flex-col">
+                    Filmed By:
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                    <br/>
+                    Edited By:
+                    <Member name="Hoang Ton" handle="@hoon.evday" link="https://www.instagram.com/hoon.evday/" pic="/kosmos/Hoang.jpg"/>
+                </div>
+                <br/>
             </div>
 
             <h1 className="text-2xl text-center font-semibold p-8">Spring 2024 Covers</h1>
